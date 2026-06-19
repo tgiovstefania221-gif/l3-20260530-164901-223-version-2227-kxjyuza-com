@@ -1,0 +1,13 @@
+{
+  "parsed_movies": 2000,
+  "detail_pages": 2000,
+  "category_pages": 10,
+  "category_coverage": 2000,
+  "html_pages": 2014,
+  "cover_images": 150,
+  "video_sources_from_uploaded_js": 20,
+  "index_movie_cards": 2030,
+  "search_movie_cards": 2000,
+  "baidu_stats_pages": 2014,
+  "issues": []
+}

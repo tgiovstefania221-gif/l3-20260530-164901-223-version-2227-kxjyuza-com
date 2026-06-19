@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>一个唱歌，另一个不唱歌在线观看-热门欧美影片</title>
+<meta name="description" content="两位法国女性四十年间的通信与友谊，一个选择了歌唱与艺术，另一个选择了沉默与战斗。">
+<meta name="keywords" content="一个唱歌，另一个不唱歌,剧情 / 音乐 / 女性,法国,电影,动作犯罪,友谊,女性,法国,岁月,女性主义,热门欧美影片,欧美影片,高分电影,电影排行榜,热门影片,精选影片,高清影片">
+<link rel="stylesheet" href="./assets/site.css">
+<script src="./assets/hls.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var shell = document.querySelector('[data-player]');
+    if (!shell) return;
+    var video = shell.querySelector('video');
+    var button = shell.querySelector('.play-cover');
+    var source = "https://customer-7t103rn8rocxo5v6.cloudflarestream.com/fe0c41d994d01211debb24e84e3384a9/manifest/video.m3u8";
+    var prepared = false;
+    var hls = null;
+
+    function prepare() {
+        if (prepared) return;
+        prepared = true;
+        if (video.canPlayType('application/vnd.apple.mpegurl')) {
+            video.src = source;
+        } else if (window.Hls && window.Hls.isSupported()) {
+            hls = new window.Hls({ enableWorker: true });
+            hls.loadSource(source);
+            hls.attachMedia(video);
+        } else {
+            video.src = source;
+        }
+    }
+
+    function play() {
+        prepare();
+        shell.classList.add('is-playing');
+        var start = video.play();
+        if (start && typeof start.catch === 'function') {
+            start.catch(function() {});
+        }
+    }
+
+    if (button) {
+        button.addEventListener('click', play);
+    }
+    video.addEventListener('click', function() {
+        if (video.paused) play();
+    });
+    video.addEventListener('play', function() {
+        shell.classList.add('is-playing');
+    });
+});
+</script>
+</head>
+<body>
+<header class="site-header">
+    <nav class="nav-shell">
+        <a class="brand" href="./index.html" aria-label="热门欧美影片">
+            <span class="brand-mark">▶</span>
+            <span class="brand-text">热门欧美影片</span>
+        </a>
+        <button class="mobile-toggle" type="button" aria-label="菜单" data-menu-toggle>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-links" data-nav-links>
+            <a class="nav-link " href="./index.html">首页</a><a class="nav-link " href="./categories.html">分类</a><a class="nav-link " href="./ranking.html">排行榜</a><a class="nav-link " href="./search.html">搜索</a>
+            <div class="nav-dropdown">
+                <button type="button">题材</button>
+                <div class="dropdown-panel">
+                    <a href="./category-europe-hot.html">欧美热映</a><a href="./category-top-rated.html">高分精选</a><a href="./category-crime-action.html">动作犯罪</a><a href="./category-suspense-thriller.html">悬疑惊悚</a><a href="./category-comedy-animation.html">喜剧动画</a><a href="./category-drama-family.html">剧情家庭</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+<section class="detail-hero">
+    <div class="detail-bg">
+        <img src="./113.jpg" alt="一个唱歌，另一个不唱歌">
+    </div>
+    <div class="detail-layout">
+        <div class="detail-poster">
+            <img src="./113.jpg" alt="一个唱歌，另一个不唱歌">
+        </div>
+        <div class="detail-copy">
+            <nav class="breadcrumb">
+                <a href="./index.html">首页</a>
+                <span>/</span>
+                <a href="./category-crime-action.html">动作犯罪</a>
+            </nav>
+            <p class="eyebrow">电影 · 2025</p>
+            <h1>一个唱歌，另一个不唱歌</h1>
+            <p class="lead-text">两位法国女性四十年间的通信与友谊，一个选择了歌唱与艺术，另一个选择了沉默与战斗。</p>
+            <div class="hero-tags detail-tags">
+                <span>9.4 推荐指数</span>
+                <span>法国</span>
+                <span>友谊</span><span>女性</span><span>法国</span><span>岁月</span><span>女性主义</span>
+            </div>
+            <a class="primary-btn" href="#player">立即播放</a>
+        </div>
+    </div>
+</section>
+<section class="player-section" id="player">
+    <div class="video-shell" data-player>
+        <video class="movie-video" controls playsinline preload="metadata" poster="./113.jpg"></video>
+        <button class="play-cover" type="button" aria-label="播放一个唱歌，另一个不唱歌">
+            <span class="play-circle">▶</span>
+            <strong>一个唱歌，另一个不唱歌</strong>
+        </button>
+    </div>
+</section>
+<section class="detail-content">
+    <article class="story-card">
+        <h2>剧情简介</h2>
+        <p>1960年代，两位年轻女性在巴黎相识：性格外向的波琳梦想成为歌剧演员，而内敛的安娜则是一位初露锋芒的女权主义摄影师。她们在1968年五月风暴中成为挚友。此后四十年，她们的人生走向了截然不同的道路：波琳结婚生子，在丈夫的支持下坚持声乐训练，最终成为小有名气的歌剧演员，在舞台上用歌声表达一切；安娜则投身于女权运动，参与争取堕胎权、反对家庭暴力，用镜头记录下女性斗争的每一个瞬间，她个人却选择了不婚不育，也很少再开口谈论自己的情感。她们分隔两地，通过信件和偶尔的见面维系友谊，分享着各自人生中的成功、挫折、丧亲之痛以及时代变迁。当安娜身患重病，波琳放下一切来到她身边，用一场只有安娜一个人听的私人音乐会，完成了对这段友谊的最终诠释。</p>
+    </article>
+    <article class="story-card">
+        <h2>精彩看点</h2>
+        <p>一部关于女性友谊的史诗，温情而不煽情。导演用细腻的笔触描绘了两个女人如何在各自选择的道路上成为自己，她们从未互相评判，只是互相见证。音乐与摄影的运用极具力量，结尾的独唱段落足以让任何观众落泪。</p>
+    </article>
+    <aside class="info-card">
+        <h2>影片信息</h2>
+        <ul><li><span>地区</span><strong>法国</strong></li><li><span>类型</span><strong>电影</strong></li><li><span>年份</span><strong>2025</strong></li><li><span>题材</span><strong>剧情 / 音乐 / 女性</strong></li><li><span>分类</span><strong>动作犯罪</strong></li><li><span>推荐指数</span><strong>9.4</strong></li></ul>
+    </aside>
+</section>
+<section class="content-section related-section">
+    <div class="section-head">
+        <div>
+            <p class="eyebrow">相关推荐</p>
+            <h2>你可能也喜欢</h2>
+            <p>从相近题材、同类分类与热门内容中精选。</p>
+        </div>
+    </div>
+    <div class="movie-grid">
+        <article class="movie-card " data-search-item data-keywords="极乐岛杀人狂 日本 电影 2019 恐怖 / 惊悚 / 悬疑 高分精选 孤岛 连续杀人 猎奇手法 封闭空间" data-year="2019" data-category="top-rated">
+    <a class="poster-wrap" href="./movie-0058.html" aria-label="极乐岛杀人狂">
+        <img src="./58.jpg" alt="极乐岛杀人狂" loading="lazy">
+        <span class="score-badge">8.5</span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie-0058.html">极乐岛杀人狂</a>
+        <p>六名网红受邀登上直播岛，却发现自己成了猎奇杀人狂的24小时直播素材。</p>
+        <div class="movie-meta">
+            <span>2019</span>
+            <span>日本</span>
+        </div>
+        <div class="tag-row"><span>孤岛</span><span>连续杀人</span></div>
+    </div>
+</article>
+<article class="movie-card " data-search-item data-keywords="花心萝卜 中国香港 电影 1995 喜剧、爱情 喜剧动画 都市 渣男 港式无厘头 浪子回头" data-year="1995" data-category="comedy-animation">
+    <a class="poster-wrap" href="./movie-0097.html" aria-label="花心萝卜">
+        <img src="./97.jpg" alt="花心萝卜" loading="lazy">
+        <span class="score-badge">7.2</span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie-0097.html">花心萝卜</a>
+        <p>全港最浪的广告总监意外被“真心话”魔咒击中，凡他说谎就会打嗝，花花肠子瞬间无处遁形。</p>
+        <div class="movie-meta">
+            <span>1995</span>
+            <span>中国香港</span>
+        </div>
+        <div class="tag-row"><span>都市</span><span>渣男</span></div>
+    </div>
+</article>
+<article class="movie-card " data-search-item data-keywords="天地豪情粤语 中国香港 剧集 1999 剧情 / 商战 欧美热映 家族恩怨 粤语原声 豪门 兄弟反目 经典" data-year="1999" data-category="europe-hot">
+    <a class="poster-wrap" href="./movie-0169.html" aria-label="天地豪情粤语">
+        <img src="./19.jpg" alt="天地豪情粤语" loading="lazy">
+        <span class="score-badge">8.3</span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie-0169.html">天地豪情粤语</a>
+        <p>两个同父异母的兄弟，一个继承百亿家产，一个流落街头，最终互换身份。</p>
+        <div class="movie-meta">
+            <span>1999</span>
+            <span>中国香港</span>
+        </div>
+        <div class="tag-row"><span>家族恩怨</span><span>粤语原声</span></div>
+    </div>
+</article>
+<article class="movie-card " data-search-item data-keywords="重返恐怖高校 美国 电影 2022 恐怖，喜剧 剧集综艺 校园 诅咒 返校日 变态杀人魔 反套路" data-year="2022" data-category="series-variety">
+    <a class="poster-wrap" href="./movie-0250.html" aria-label="重返恐怖高校">
+        <img src="./100.jpg" alt="重返恐怖高校" loading="lazy">
+        <span class="score-badge">9.1</span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie-0250.html">重返恐怖高校</a>
+        <p>毕业十周年的高中同学返校，母校的“恐怖高校”诅咒再次应验，而这一回，杀人魔专杀当年欺负过书呆子的人。</p>
+        <div class="movie-meta">
+            <span>2022</span>
+            <span>美国</span>
+        </div>
+        <div class="tag-row"><span>校园</span><span>诅咒</span></div>
+    </div>
+</article>
+<article class="movie-card " data-search-item data-keywords="我有特殊沟通技巧 中国大陆 剧集 2024 奇幻 / 爱情 / 剧情 动作犯罪 读心术 治愈系 社恐女主 单元故事" data-year="2024" data-category="crime-action">
+    <a class="poster-wrap" href="./movie-0357.html" aria-label="我有特殊沟通技巧">
+        <img src="./57.jpg" alt="我有特殊沟通技巧" loading="lazy">
+        <span class="score-badge">7.3</span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie-0357.html">我有特殊沟通技巧</a>
+        <p>社恐女孩能听见物品的“心声”，帮失物找到主人，却唯独听不到暗恋男生的心跳。</p>
+        <div class="movie-meta">
+            <span>2024</span>
+            <span>中国大陆</span>
+        </div>
+        <div class="tag-row"><span>读心术</span><span>治愈系</span></div>
+    </div>
+</article>
+<article class="movie-card " data-search-item data-keywords="亨利先生的秘密 英国 电影 2024 悬疑，剧情，黑色幽默 爱情都市 畅销书 代笔 身份错位 文学圈 反转" data-year="2024" data-category="romance-urban">
+    <a class="poster-wrap" href="./movie-0481.html" aria-label="亨利先生的秘密">
+        <img src="./31.jpg" alt="亨利先生的秘密" loading="lazy">
+        <span class="score-badge">8.6</span>
+        <span class="play-badge">播放</span>
+    </a>
+    <div class="movie-card-body">
+        <a class="movie-title" href="./movie-0481.html">亨利先生的秘密</a>
+        <p>畅销书作家背后的“幽灵写手”决定绑架他的老板，强迫他写一本真正的文学巨著。</p>
+        <div class="movie-meta">
+            <span>2024</span>
+            <span>英国</span>
+        </div>
+        <div class="tag-row"><span>畅销书</span><span>代笔</span></div>
+    </div>
+</article>
+    </div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <a class="footer-brand" href="./index.html">热门欧美影片</a>
+            <p>整理热门欧美影片内容，结合评分、热度和题材分类，便于查看高关注作品。</p>
+        </div>
+        <div>
+            <h3>快速导航</h3>
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类总览</a>
+            <a href="./ranking.html">高分排行</a>
+            <a href="./search.html">搜索筛选</a>
+        </div>
+        <div>
+            <h3>热门分类</h3>
+            <div class="footer-tags"><a href="./category-europe-hot.html">欧美热映</a><a href="./category-top-rated.html">高分精选</a><a href="./category-crime-action.html">动作犯罪</a><a href="./category-suspense-thriller.html">悬疑惊悚</a><a href="./category-comedy-animation.html">喜剧动画</a><a href="./category-drama-family.html">剧情家庭</a><a href="./category-sci-fi-fantasy.html">科幻奇幻</a><a href="./category-romance-urban.html">爱情都市</a></div>
+        </div>
+    </div>
+    <div class="copyright">© 2026 热门欧美影片 · 精选内容持续更新</div>
+</footer>
+<script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
